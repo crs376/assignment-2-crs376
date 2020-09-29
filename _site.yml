@@ -1,4 +1,4 @@
-output_dir: "."
+name: "index""
 navbar:
   left:
     - text: "Home"
@@ -7,3 +7,11 @@ navbar:
       href: casey.html
     - text: "Sam"
       href: sam.html  
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    toc: true 
+    toc_float: true 
+    
