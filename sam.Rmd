@@ -17,6 +17,7 @@ So we should obviously take a look at plot of MN filled with purple.
 
 ```{r}
 library(ggplot2)
+library(maps)
 map.state <- map_data("state") 
 map.mn <- subset(map.state, region %in% "minnesota")
 

@@ -9,7 +9,7 @@ navbar:
       href: sam.html  
 output:
   html_document:
-    theme: yeti
+    theme: simplex
     highlight: textmate
     toc: true 
     toc_float: true 
