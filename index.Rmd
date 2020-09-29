@@ -1,0 +1,20 @@
+---
+title: "index"
+author: "Casey"
+date: "9/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Getting Through Fall 2020
+
+Casey & Sam
+
+Casey's Github page ![https://github.com/crs376]
+
+Sam's Github page ![http://github.com/sam-porter]
+
+![Casey & Zoe](http://2.bp.blogspot.com/-paru517_Iq8/VrJyVyoJ4uI/AAAAAAAAASY/BgFPeyIR2S8/s320/IMG_1937.JPG)

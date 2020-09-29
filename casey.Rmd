@@ -1,0 +1,18 @@
+---
+title: "casey"
+author: "Casey"
+date: "9/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Casey Silver
+
+* 28 years old as of writing
+* prefers to spend afternoons on porches, with a book, or hanging with pals (or all three!)
+* have always aspired to lived a treehouse
+* second year M.S. student in Applied Econ
+* can't wait for the first snow
