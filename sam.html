@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Casey" />
 
 
-<title>index</title>
+<title>Sam</title>
 
 <script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -294,23 +293,27 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">index</h1>
-<h4 class="author">Casey</h4>
-<h4 class="date">9/29/2020</h4>
+<h1 class="title toc-ignore">Sam</h1>
 
 </div>
 
 
-<div id="getting-through-fall-2020" class="section level1">
-<h1>Getting Through Fall 2020</h1>
-<p>Casey &amp; Sam</p>
-<p>Casey’s Github page [<a href="https://github.com/crs376" class="uri">https://github.com/crs376</a>]</p>
-<p>Sam’s Github page [<a href="http://github.com/sam-porter" class="uri">http://github.com/sam-porter</a>]</p>
-<div class="figure">
-<img src="http://2.bp.blogspot.com/-paru517_Iq8/VrJyVyoJ4uI/AAAAAAAAASY/BgFPeyIR2S8/s320/IMG_1937.JPG" alt="" />
-<p class="caption">Casey &amp; Zoe</p>
-</div>
-</div>
+<p>My name is Sam.</p>
+<ul>
+<li>I am from Minnesota</li>
+<li>One of my favorite colors is purple.</li>
+</ul>
+<p>So we should obviously take a look at plot of MN filled with purple.</p>
+<pre class="r"><code>library(ggplot2)
+map.state &lt;- map_data(&quot;state&quot;) 
+map.mn &lt;- subset(map.state, region %in% &quot;minnesota&quot;)
+
+ggplot(map.mn) + 
+  geom_polygon(aes(x = long, y = lat, fill = region, group = group), color = &quot;white&quot;) + 
+  coord_fixed(1.3) +
+  ggtitle(&quot;The Wonderful State of Minnesota&quot;) + theme(legend.position = &quot;none&quot;) +
+  scale_fill_viridis_d()</code></pre>
+<p><img src="sam_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 
 
 
